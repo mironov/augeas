@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Augeas: Clean your browser from spying extensions",
+  "name": "Augeas: Clean browser from spying extensions",
   "short_name": "Augeas",
   "version": "1.0",
   "description": "See the list of installed browser extensions with granted permissions.",
