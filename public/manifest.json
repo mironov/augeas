@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Augeas: Clean your browser from spying extensions",
+  "short_name": "Augeas",
+  "version": "1.0",
+  "description": "See the list of installed browser extensions with granted permissions.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "management",
+    "tabs"
+  ],
+  "options_page": "index.html",
+  "author": "Anton Mironov",
+  "homepage_url": "https://mironov.live"
+}
